@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Place searches</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="mapStyle.css">
+<script src="mapScript.js"></script>
+</head>
+<body>
+	<input id="enterSource" class="controls" type="text"
+		placeholder="Enter a source">
+	<input id="source" type="button" value="Source" class="controls">
+	<input id="enterDestination" class="controls" type="text"
+		placeholder="Enter a destination">
+	<input id="destination" type="button" value="Destination"
+		class="controls">
+	<input id="findRoute" type="button" value="Find route">
+	<div id="map"></div>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWASJ2zanbHrSDwPm4BIH7rDwdlg5jvTg&libraries=places&callback=initMap"
+		async defer></script>
+</body>
+</html>
